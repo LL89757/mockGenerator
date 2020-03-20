@@ -1,0 +1,33 @@
+{
+  "name": "mockgeneratorcli",
+  "version": "1.0.0",
+  "description": "generate mock data by swaggerapi",
+  "main": "/lib/mockGenerator.js",
+  "bin": {
+    "mockgenerator": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LL89757/mockgenerator.git"
+  },
+  "keywords": [
+    "swagger",
+    "mockjs",
+    "mock-generator"
+  ],
+  "author": "li.lv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LL89757/mockgenerator/issues"
+  },
+  "homepage": "https://github.com/LL89757/mockgenerator#readme",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "signale": "^1.4.0",
+    "swagger-parser-mock": "^1.1.2",
+    "mkdirp": "^1.0.3"
+  }
+}
