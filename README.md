@@ -1,0 +1,2 @@
+# mockgenerator
+基于swagger文档自动生成前端mock文件
