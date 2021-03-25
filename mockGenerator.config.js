@@ -1,5 +1,4 @@
 module.exports = {
-  swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-edu-admin', // swagger-api的文档地址
   swaggerUrlList: [
     {
       swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-edu-admin',
