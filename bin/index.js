@@ -8,7 +8,7 @@ program
   .version('v' + require(join(process.cwd() + '/package.json')).version, '-v, --version')
   .action(function (env, opt) {
     mockGenerator.init({
-      swaggerUrl: mockConfig.swaggerUrl,
+      swaggerUrlList: mockConfig.swaggerUrlList,
       outputPath: mockConfig.outputPath,
       dataLength: mockConfig.dataLength,
       fileName: mockConfig.fileName,
