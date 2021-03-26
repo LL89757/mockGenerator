@@ -1,45 +1,10 @@
 module.exports = {
   swaggerUrlList: [
     {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-edu-admin',
-      outputDir: '/mock/edu-admin',
+      swaggerUrl: '',
+      outputDir: '/mock/demo',
       generate: false,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-sso',
-      outputDir: '/mock/sso',
-      generate: false,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-ordering',
-      outputDir: '/mock/ordering',
-      generate: true,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-org-management',
-      outputDir: '/mock/org-management',
-      generate: true,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-bff',
-      outputDir: '/mock/bff',
-      generate: true,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-background-task',
-      outputDir: '/mock/background-task',
-      generate: false,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-msg-center',
-      outputDir: '/mock/msg-center',
-      generate: false,
-    },
-    {
-      swaggerUrl: 'https://dev-tbu-next-erp-gateway.schoolpal.cn/swagger/df-dev-next-erp-020-01/next-report',
-      outputDir: '/mock/report',
-      generate: true,
-    },
+    }
   ],
   outputFileType: 'ts', //生成文件类型 ts||js
   ignoreList: [], // 忽略api列表
